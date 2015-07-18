@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.emc.weather.model.Weather" table="weather" catalog="test">
+        <id name="weatherId" type="java.lang.Integer">
+            <column name="WEATHER_CITY_ID" length="11"/>
+        </id>
+        <property name="userName" type="string">
+            <column name="USER_NAME" length="45"/>
+        </property>
+        <property name="jsonServiceResponse" type="string">
+            <column name="JSON_SERVICE_RESPONSE" length="2000"/>
+        </property>
+    </class>
+</hibernate-mapping>

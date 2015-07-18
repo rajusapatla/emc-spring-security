@@ -1,0 +1,16 @@
+Configurations
+===============
+
+Add any configurations (schemas, credentials, notes) that the test administrator will need, below.  If you need to add additional configuration files, feel free to do so.
+schema : test
+credentials: raju/sapatla
+MySql Database version 5.5 
+
+table creation sql:
+-------------------
+CREATE TABLE `weather` (
+  `WEATHER_CITY_ID` int(11) NOT NULL,
+  `USER_NAME` varchar(45) DEFAULT NULL,
+  `JSON_SERVICE_RESPONSE` varchar(2000) DEFAULT NULL,
+  PRIMARY KEY (`WEATHER_CITY_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
