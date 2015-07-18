@@ -1,5 +1,0 @@
-com\emc\weather\dao\WeatherDao.class
-com\emc\WeatherController.class
-com\emc\weather\dao\impl\WeatherDaoImpl.class
-com\emc\weather\service\WeatherService.class
-com\emc\weather\model\Weather.class
