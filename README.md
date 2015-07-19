@@ -1,5 +1,8 @@
 EMC Spring Security
 ===================
+## Project Description
+This is a spring security application which demonstrates some of the features of the spring security. Implemented task section provides more information about the features implemented in this demo.
+
 
 ## Technology Stack
 1). java
