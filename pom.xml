@@ -147,8 +147,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
-			<artifactId>tomcat7-websocket</artifactId>
-			<version>7.0.47</version>
+			<artifactId>tomcat-websocket</artifactId>
+			<version>8.0.0-RC1</version>
 		</dependency>
 	</dependencies>
 	<build>
