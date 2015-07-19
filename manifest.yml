@@ -1,0 +1,7 @@
+---
+applications:
+  - name: EMC-Spring-Security
+    buildpack: java_buildpack
+    path: target/EMC-Spring-Security.war
+    services:
+      - mysql
