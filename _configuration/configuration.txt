@@ -1,6 +1,5 @@
 Configurations
 ===============
-
 Add any configurations (schemas, credentials, notes) that the test administrator will need, below.  If you need to add additional configuration files, feel free to do so.
 schema : test
 credentials: raju/sapatla
