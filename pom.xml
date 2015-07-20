@@ -145,11 +145,11 @@
 			<artifactId>spring-test</artifactId>
 			<version>${springtest.version}</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-websocket</artifactId>
 			<version>8.0.0-RC1</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<finalName>EMC-Spring-Security</finalName>
